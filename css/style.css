@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: Starjedi;
+    src: url(../Starjedi.ttf);
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.header__titulo{
+    font-family: Starjedi;
+    flex-basis: 100%;
+    font-size: 4rem;
+}
+
+.menu{
+    flex-basis: 100%;
+}
+
+.menu__lista{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.menu__item{
+    font-size: 2rem;
+}
+
+
+/*Cajas de peliculas*/
+
+
+
