@@ -26,4 +26,19 @@
     font-size: 1.8rem;
 }
 
+.pelicula-izquierda{
+    margin-left: 10%;
+}
+
 /*Los div fantasmas xD*/
+
+.fantasma-right{
+    border-right: 5px solid black;
+    width: 5%;
+    margin-right: 5%;
+}
+
+.fantasma-left{
+    border-left: 5px solid black;
+    width: 10%;
+}
