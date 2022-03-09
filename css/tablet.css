@@ -1,0 +1,29 @@
+.header{
+    align-items: center;
+}
+
+.header__titulo{
+    flex-basis: 40%;
+}
+
+.menu{
+    flex-basis: 60%;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Cajas de peliculas*/
+
+.pelicula{
+    width: 40%;
+}
+
+.pelicula__titulo{
+    font-size: 1.8rem;
+}
+
+/*Los div fantasmas xD*/
