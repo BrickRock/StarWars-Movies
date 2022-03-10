@@ -1,0 +1,15 @@
+.main{
+    background-color: white;
+    position: relative;
+    z-index: -10;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #ebeef3;
+}
+
+body{
+    background-color: black;
+}

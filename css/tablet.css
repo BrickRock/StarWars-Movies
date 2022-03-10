@@ -26,19 +26,71 @@
     font-size: 1.8rem;
 }
 
-.pelicula-izquierda{
-    margin-left: 10%;
+.pelicula--derecha{
+    position: relative;
 }
 
-/*Los div fantasmas xD*/
-
-.fantasma-right{
+.pelicula--derecha::after{
+    content: "";
+    display: block;
+    border-top: 5px solid black;
     border-right: 5px solid black;
-    width: 5%;
-    margin-right: 5%;
+    border-bottom: 5px solid black;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    right: -4rem;
+    bottom: -60%;
 }
 
-.fantasma-left{
+.pelicula--izquierda{
+    position: relative;
+}
+
+.pelicula--izquierda::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    bottom: -60%;
+    left: -4rem;
+    border-top: 5px solid black;
     border-left: 5px solid black;
-    width: 10%;
+    border-bottom: 5px solid black;
+    z-index: -1;
+}
+
+ /*Orden de peliculas*/
+ .La-amenaza{
+    order: 1;
+}
+.El-ataque{
+    order: 2;
+}
+.La-venganza{
+    order: 4;
+}
+.Rogue-one{
+    order: 3;
+}
+.Una-nueva{
+    order: 5;
+}
+.El-imperio{
+    order: 6;
+}
+.El-despertar{
+    order: 7;
+}
+.El-regreso{
+    order: 8;
+}
+.Los-ultimos{
+    order: 9;
+}
+
+.El-ascenso{
+    order: 10;
 }
